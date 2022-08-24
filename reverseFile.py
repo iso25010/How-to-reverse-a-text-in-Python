@@ -28,7 +28,7 @@ class Reverse:
 
 r=Reverse()
 
-aFile=str(input('Input a source file: '))
+aFile=input('Input a source file: ')
 
 try:
     r.pushStack(aFile)
